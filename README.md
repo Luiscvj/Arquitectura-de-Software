@@ -8,6 +8,8 @@ No hay una definicion especifica para este tema, pero si se puede intentar divid
 **2)Razonar**
 -La Arquitectura de software sirve para poder discutir y razonzar a cerca  del sistema que se esta queriendo implementar.En este cao sirve para que el queipo de desarrollo pueda disctuir  sobre los requerimientos de su sistema, como va a funcionar y que patrones o elementos implementar.
 
+![architecture](https://github.com/Luiscvj/Arquitectura-de-Software/assets/130381389/b4b79e1b-836e-44cf-bb88-faa562b883ce)
+
 Ademas de esto tambien se  puede entender como la capacidad para tomar **desiciones de diseño**  importantes que permiten organizar el software y promover los **atributos de calidad** deseados, que en otras palabras como arquitecto se decide que tipo de patron usar segun los requerimientos de mi aplicacion para buscar  la mayor calidad  en la misma , como :
 **-Escalabilidad**
 **-Seguridad**
