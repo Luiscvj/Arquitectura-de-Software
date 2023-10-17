@@ -29,12 +29,32 @@ Es decir me da el lineamiento para empezar a definir la estructura de mi aplicac
 
 ### Arquitectura en tres capas 
 
+Es un patron arquitectonico que consta de las siguientes capas:
 
+**Presentacion:** Tiene la tares de generar las vistas y de interactuar directamente con el usuario.
+**Negocio:** Tiene la responsabilidad  de implementar la lógica  de negocio, como implementar operaciones, calculos,validaciones, etc.
+**Datos:**  Tiene la repsonsabilidad  de interactuar con la base de datos.
 
-
+A medida que el usaurio interactue con este patron a traves de la capa de presentacion, el sistema si o si, requerira comunicarse con las demas capas para suplir la necesidad del cliente.Por lo tanto si una capa falla, fallan todas .Ademas si se decide cambiar el patron arquitectonico tiempo despues de finalizada la aplicacion seguramente se tendra que reestructurar toda la software construido.
 
 
 Sin embargo ambos conceptos se pueden llegar a confundir , pero es necesario saber diferenciarlos de la siguiente manera.Los **Patrones Arquitectonicos** son patrones que se dan para soluciones generales relacionadas a la estructura y organizacion de un sistema ,  y los **Patornes de diseño** vienen para solucionar problemas dentro de los patrones arquitectonicos, los cuales se basan mas en como estructurar el codigo en si , y generalamente se dan a niveles de objetos y clases.
+
+
+## ¿Que son los estilos arquitectonicos?
+
+Los estilos arquitectónicos son enfoques generales y amplios para la organización y la estructura de un sistema de software. Estos enfoques establecen principios generales para diseñar la arquitectura, como la relación entre componentes, la forma en que se distribuyen y comunican, y la organización general del sistema.
+
+*Pueden haber muchos estilos arquitectonicos y todos dependen  de la necesidad a suplir.
+
+**Arquitectura centra en datos:** Tiene un fuerte enfoque en la gestion y almacenamiento de datos . En este estilo se tiene a los datos como nucleo y uan gestion centralizadda de los mismos.
+**Arquitectura centrada en flujo de datos:** Cebtrado en el flujo y la modificabilidad de los datos .
+
+
+
+
+
+
 
 
 
