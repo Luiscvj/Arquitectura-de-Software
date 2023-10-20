@@ -47,8 +47,9 @@ Los estilos arquitectónicos son enfoques generales y amplios para la organizaci
 
 *Pueden haber muchos estilos arquitectonicos y todos dependen  de la necesidad a suplir.
 
-**Arquitectura centra en datos:** Tiene un fuerte enfoque en la gestion y almacenamiento de datos . En este estilo se tiene a los datos como nucleo y uan gestion centralizadda de los mismos.
-**Arquitectura centrada en flujo de datos:** Cebtrado en el flujo y la modificabilidad de los datos .
+**Arquitectura centra en datos:** Tiene un fuerte enfoque en la gestion y almacenamiento de datos . En este estilo se tiene a los datos como nucleo y una gestion centralizadda de los mismos.
+
+**Arquitectura centrada en flujo de datos:** Centrado en el flujo y la modificabilidad de los datos.
 
 
 
