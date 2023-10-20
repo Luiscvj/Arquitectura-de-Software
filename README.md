@@ -51,6 +51,26 @@ Los estilos arquitectónicos son enfoques generales y amplios para la organizaci
 
 **Arquitectura centrada en flujo de datos:** Centrado en el flujo y la modificabilidad de los datos.
 
+## ¿Cual es la relacion  entre Estilos arquitectonicos, Patron Arquitectonico, y Patron de diseño?
+
+La relacion entre cada uno de estos conceptos se ve de la siguiente manera:
+*El estilo arquitectonico sirve como base para implementar los patrones arquitectonicos.
+*Los Patrones arquitectonicos se implementa al usar uno o mas patrones de diseño.
+*Los Patrones de Diseño son los patrones mas especificos y se centra en resolver  como las clases se crean, como se estructuras, etc.
+
+
+## Patrones de diseño.
+
+
+**Singleton:** Me permite generar instancias unicas por el periodo de tiempo solicitado y tengan un punto de acceso global.Esto me permite ahorrar memoria en mis servidores  ya que si 100.000 usuarios quieren solicitar una lista de paises, van a utilizar unicamente una instancia de la entidad paises  sin tener que generar una por cada usuario.Una de las claves de este patron es crear el constuctor de la clase en **private** .Su beneficio es la administracion de la memoria, y su desventaja es que no s epuede usar siempre.
+
+**Factory:** Es un patron de diseño que me permite obtener instancias segun un identificador, todo esto a traves de una interfaz.
+
+**Abstract Factory:** Tengo una super fabrica de fabricas, es decir si quiero un objeto tengo que decirle primero que fabrica y loego a esa instancia de fabrica le indicio que objeto traer
+
+
+
+
 
 
 
